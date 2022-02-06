@@ -1,0 +1,23 @@
+{
+  "name": "dcoauth2",
+  "version": "1.0.0",
+  "description": "discord oauth2",
+  "main": "server.js",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-discord": "^0.1.4",
+    "express-session": "^1.17.2",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "oauth2"
+  ],
+  "author": "whiskydev11",
+  "license": "ISC"
+}
